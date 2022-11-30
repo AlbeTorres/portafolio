@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+	font-family: Centra;
+	src: local('Centra'), url('./assets/font/CentraNo2-Bold.ttf') format('ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: local('Centra'), url('./assets/font/CentraNo2-Medium.ttf')  format('ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: local('Centra'), url('./assets/font/CentraNo2-Book.ttf')  format('ttf');
+	font-weight: 400;
+}
+@tailwind utilities;
+
+
+
+
+/************ Default Css ************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+  
+  body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #121212 !important;
+    color: #fff !important;
+    font-family: 'Centra', sans-serif !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+  }
+  
+  p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    border: 0;
+    background-color: transparent;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+
+/************ Navbar Css ************/
+  .scrolled {
+    background-color: #121212;
+  }
+/************ Banner Css ************/
+
+
+.banner {
+  margin-top: 0;
+  background-image: url('./assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}  
+
+.herolayout{
+  grid-template-columns: 52% 48%;
+}
+
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.bannerimg {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.conectbtn {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+}
