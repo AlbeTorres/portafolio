@@ -3,6 +3,7 @@ import Container from './components/Container'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import SkillSection from './components/SkillSection'
 import './index.css'
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
     </Container>
 
     </Header>
+    
+      <SkillSection/>
      
     </div>
   )

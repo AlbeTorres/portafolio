@@ -8,7 +8,7 @@ import social3 from "../assets/img/nav-icon3.svg";
 
 const Hero = () => {
   return (
-    <div className="grid gap-y-5 md:gap-x-4 herolayout py-32  ">
+    <section className="grid gap-y-5 md:gap-x-4 herolayout py-32  ">
       <div className=" flex flex-col items-center md:items-start">
         <div className="p-4 rounded-md border w-fit banner tagline ">
           <p>Welcome to my portfolio</p>
@@ -18,10 +18,7 @@ const Hero = () => {
         </h1>
         <p className=" text-center md:text-start">
           I am a programmer motivated by the idea of creating solutions that add
-          value to society. I consider myself an empathetic, responsible person
-          with the ability to transmit ideas. I am always learning something
-          new, it is a way of life that I enjoy. I am interested in working with
-          talented colleagues in a healthy environment.
+          value to society. 
         </p>
         <ul className="flex items-center justify-between w-40     my-5  ">
           <li className="social-icon ">
@@ -52,7 +49,7 @@ const Hero = () => {
       <figure className="bannerimg">
         <img src={astronaut} alt="" />
       </figure>
-    </div>
+    </section>
   );
 };
 
