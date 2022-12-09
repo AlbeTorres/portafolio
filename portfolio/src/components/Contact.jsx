@@ -5,7 +5,7 @@ import contactimg from '../assets/img/contact-img.svg'
 
 const Contact = () => {
   return (
-    <section className='contact mt-8'>
+    <section className='contact mt-8 py-20  '>
     <Container>
 
     <div className='md:grid md:grid-cols-2 mt-5'>

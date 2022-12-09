@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import SkillSection from "./components/SkillSection";
+import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <SkillSection />
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

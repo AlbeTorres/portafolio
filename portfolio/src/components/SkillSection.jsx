@@ -27,7 +27,7 @@ const SkillSection = () => {
     },
   };
   return (
-    <section className="relative pb-12     ">
+    <section className="relative md:pb-12     ">
 
     <Container>
 
