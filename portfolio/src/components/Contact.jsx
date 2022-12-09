@@ -17,11 +17,15 @@ const Contact = () => {
     <h1 className='font-bold my-7 text-4xl text-center  '>Get in Touch</h1>
      
         <div>
+        <div className='flex flex-col md:flex-row items-center md:gap-x-4'>
           <input type="text" placeholder='first Name' className='rounded-md ' />
+          <input type="text" placeholder='Phone number' className='rounded-md ' />
+
+        </div>
           <textarea placeholder='A amazing work offert?' className='rounded-md h-44   '></textarea>
         </div>
 
-        <button className='rounded-md  w-full '>
+        <button className='rounded-md  w-full md:w-fit '>
           Send
         </button>
     </form>
