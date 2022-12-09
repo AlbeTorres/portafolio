@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Contact from "./components/Contact";
 import Container from "./components/Container";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -18,6 +19,7 @@ function App() {
       </Header>
       <SkillSection />
       <Projects/>
+      <Contact/>
     </div>
   );
 }
